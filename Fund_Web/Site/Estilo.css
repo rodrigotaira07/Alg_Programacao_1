@@ -1,0 +1,42 @@
+h2{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	font-size: 35px;
+    text-align: center;
+	color: blue
+}
+nav, footer, #home{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+
+}
+p, #texto, ul,#corpo{
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+#video{
+	border-width: 4px; 
+	border-style: solid; 
+	border-color:  red;
+	margin: auto;
+	display: block;
+}
+#img{
+	border-width: 4px; 
+	border-style: solid; 
+	border-color:  blue;
+	margin: auto;
+	display: block;
+}
+
+#titulo{
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;	
+    font-weight: bold;
+	border-width: 4px; 
+	border-style: solid; 
+	border-color:  black;	
+}
