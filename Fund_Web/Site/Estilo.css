@@ -1,42 +1,100 @@
-h2{
+body {
+	background-image: url("Mack.png");
+	background-size: 20%;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+h2 {
 	text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
 	text-decoration: underline;
 	font-size: 35px;
-    text-align: center;
+	text-align: center;
 	color: blue
 }
-nav, footer, #home{
+
+nav {
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	position: sticky;
+	top: 0;
+	background-color: white;
+}
+
+footer,
+#home {
 	text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 22px;
 
 }
-p, #texto, ul,#corpo{
+
+p,
+#texto,
+ul,
+#corpo {
 	font-size: 17px;
-	font-family: Arial, Helvetica, sans-serif;	
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-#video{
-	border-width: 4px; 
-	border-style: solid; 
-	border-color:  red;
-	margin: auto;
-	display: block;
-}
-#img{
-	border-width: 4px; 
-	border-style: solid; 
-	border-color:  blue;
+#video {
+	border-width: 4px;
+	border-style: solid;
+	border-color: red;
 	margin: auto;
 	display: block;
 }
 
-#titulo{
+#img1 {
+	border-width: 4px;
+	border-style: solid;
+	border-color: blue;
+	margin: auto;
+	display: block;
+	float: right;
+}
+
+#img2 {
+	border-width: 4px;
+	border-style: solid;
+	border-color: blue;
+	margin: auto;
+	display: block;
+	float: left;
+}
+
+
+#titulo {
 	font-size: 22px;
-	font-family: Arial, Helvetica, sans-serif;	
-    font-weight: bold;
-	border-width: 4px; 
-	border-style: solid; 
-	border-color:  black;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border-width: 4px;
+	border-style: solid;
+	border-color: black;
+}
+
+#canto {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+figure figcaption {
+	text-align: center;
+}
+
+#dest {
+	font-size: 40px;
+	font-weight: 800;
+	color: #1d1d1f;
+}
+
+#introd {
+	font-size: 25px;
+	line-height: 1.08349;
+	font-weight: 600;
+	letter-spacing: -.003em;
+	display: inline;
 }
